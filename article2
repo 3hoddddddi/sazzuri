@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Precision Core and Pelvic Stability | Sazzuri</title>
+  <style>
+    :root {
+      --primary-color: #596854;
+      --bg-color: #fcfbf9;
+      --text-main: #2c332b;
+      --text-muted: #6b7268;
+      --border-color: #e5e5e5;
+      --font-family: 'Helvetica Neue', -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: var(--font-family); background-color: var(--bg-color); color: var(--text-main); line-height: 1.6; -webkit-font-smoothing: antialiased; }
+    a { text-decoration: none; color: inherit; transition: color 0.3s ease; }
+    a:hover { color: var(--primary-color); }
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 5%; }
+    header { padding: 2rem 0; border-bottom: 1px solid var(--border-color); background-color: var(--bg-color); position: sticky; top: 0; z-index: 100; }
+    .header-inner { display: flex; justify-content: space-between; align-items: center; }
+    .logo { font-size: 1.8rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; }
+    .nav-links { display: flex; gap: 2.5rem; font-weight: 500; font-size: 0.95rem; text-transform: uppercase; letter-spacing: 1px; }
+    
+    .article-header { text-align: center; padding: 5rem 0 3rem; }
+    .article-header h1 { font-size: 2.8rem; font-weight: 300; margin-bottom: 1rem; }
+    .article-header p { color: var(--text-muted); font-size: 1rem; text-transform: uppercase; letter-spacing: 2px; }
+    .article-cover { width: 100%; height: 500px; object-fit: cover; margin-bottom: 4rem; }
+    
+    .article-body { max-width: 700px; margin: 0 auto 6rem; font-size: 1.1rem; }
+    .article-body h2 { font-size: 1.8rem; font-weight: 400; margin: 3rem 0 1.5rem; }
+    .article-body p { margin-bottom: 1.5rem; color: #4a5249; }
+    
+    .back-link { display: inline-block; margin-top: 3rem; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; font-weight: 600; color: var(--primary-color); border-bottom: 1px solid var(--primary-color); padding-bottom: 2px; }
+    
+    footer { background-color: var(--text-main); color: #ffffff; padding: 3rem 0; text-align: center; }
+    .footer-bottom { color: #a0a0a0; font-size: 0.9rem; letter-spacing: 0.5px; }
+
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+      .article-header h1 { font-size: 2rem; }
+      .article-cover { height: 300px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container header-inner">
+      <div class="logo"><a href="index.html">Sazzuri</a></div>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="article-header">
+      <p>Movement & Strength</p>
+      <h1>Precision Core and Pelvic Stability</h1>
+    </div>
+    
+    <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=1200&q=80" alt="Core Stability" class="article-cover">
+    
+    <div class="article-body">
+      <p>A strong core is about much more than appearance. It is the central anchor for your entire body, preventing lower back pain and improving your posture whether you are lifting heavy weights or simply sitting at your desk.</p>
+      
+      <h2>The Plank Masterclass</h2>
+      <p>The standard plank is often performed incorrectly. To execute a perfect plank, start on your forearms and toes. Make sure your elbows are directly beneath your shoulders. The secret is to actively squeeze your glutes and pull your belly button towards your spine. This creates a solid line from your head to your heels.</p>
+      
+      <h2>The Bird-Dog Exercise</h2>
+      <p>This movement targets balance and deep core engagement. Start on your hands and knees. Slowly extend your right arm forward and your left leg backward simultaneously. Keep your back completely flat, as if you are balancing a glass of water on it. Hold for 3 seconds, return to the start, and switch sides. Do 10 repetitions per side.</p>
+      
+      <h2>Glute Bridges</h2>
+      <p>Your glutes are a vital part of your core system. Lie on your back with your knees bent and feet flat on the floor, hip-width apart. Push through your heels and lift your hips until your body forms a straight line from your shoulders to your knees. Squeeze at the top, then slowly lower down. Aim for 15 repetitions.</p>
+      
+      <p>Mastering these foundational movements will translate into better performance in every other physical activity you pursue.</p>
+      
+      <a href="index.html" class="back-link">&larr; Back to Home</a>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-bottom">&copy; 2026 Sazzuri. All rights reserved.</div>
+    </div>
+  </footer>
+</body>
+</html>
