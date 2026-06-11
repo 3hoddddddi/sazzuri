@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy | Sazzuri</title>
+  <style>
+    :root { --primary-color: #596854; --bg-color: #fcfbf9; --text-main: #2c332b; --text-muted: #6b7268; --border-color: #e5e5e5; --font-family: 'Helvetica Neue', -apple-system, BlinkMacSystemFont, Arial, sans-serif; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: var(--font-family); background-color: var(--bg-color); color: var(--text-main); line-height: 1.6; -webkit-font-smoothing: antialiased; }
+    a { text-decoration: none; color: inherit; transition: color 0.3s ease; }
+    a:hover { color: var(--primary-color); }
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 5%; }
+    header { padding: 2rem 0; border-bottom: 1px solid var(--border-color); background-color: var(--bg-color); position: sticky; top: 0; z-index: 100; }
+    .header-inner { display: flex; justify-content: center; align-items: center; }
+    .logo { font-size: 1.8rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; }
+    .page-header { text-align: center; padding: 5rem 0 2rem; }
+    .page-header h1 { font-size: 2.8rem; font-weight: 300; margin-bottom: 1rem; }
+    .page-body { max-width: 800px; margin: 0 auto 6rem; font-size: 1.05rem; }
+    .page-body h2 { font-size: 1.5rem; font-weight: 500; margin: 2.5rem 0 1rem; }
+    .page-body p { margin-bottom: 1.2rem; color: #4a5249; }
+    .back-link { display: inline-block; margin-top: 3rem; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; font-weight: 600; color: var(--primary-color); border-bottom: 1px solid var(--primary-color); padding-bottom: 2px; }
+    footer { background-color: var(--text-main); color: #ffffff; padding: 3rem 0; text-align: center; }
+    .footer-bottom { color: #a0a0a0; font-size: 0.9rem; letter-spacing: 0.5px; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container header-inner">
+      <div class="logo"><a href="index.html">Sazzuri</a></div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="page-header">
+      <h1>Privacy Policy</h1>
+    </div>
+    
+    <div class="page-body">
+      <p>Last updated: May 26, 2026</p>
+      <p>At Sazzuri, we are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this privacy notice or our practices with regard to your personal information, please reach out to us via our designated contact channels.</p>
+      
+      <h2>1. Information We Collect</h2>
+      <p>We automatically collect certain information when you visit, use, or navigate the Website. This information does not reveal your specific identity (like your name or contact information) but may include device and usage information, such as your IP address, browser and device characteristics, operating system, language preferences, referring URLs, device name, country, location, information about how and when you use our Website, and other technical information.</p>
+      
+      <h2>2. How We Use Your Information</h2>
+      <p>We process your information for purposes based on legitimate business interests, the fulfillment of our contract with you, compliance with our legal obligations, and/or your consent. We use the information we collect or receive to facilitate account creation, post testimonials, request feedback, and to manage user accounts.</p>
+      
+      <h2>3. Will Your Information Be Shared?</h2>
+      <p>We only share and disclose your information in the following situations: Compliance with Laws, Vital Interests and Legal Rights, Vendors, Consultants, and Other Third-Party Service Providers. We do not sell, rent, or trade any of your information with third parties for their promotional purposes.</p>
+      
+      <h2>4. Use of Cookies and Tracking Technologies</h2>
+      <p>We may use cookies and similar tracking technologies (like web beacons and pixels) to access or store information. Specific information about how we use such technologies and how you can refuse certain cookies is set out in our separate Cookie Notice.</p>
+      
+      <h2>5. How Long Do We Keep Your Information?</h2>
+      <p>We will only keep your personal information for as long as it is necessary for the purposes set out in this privacy notice, unless a longer retention period is required or permitted by law (such as tax, accounting, or other legal requirements).</p>
+      
+      <h2>6. Contact Us</h2>
+      <p>If you have questions or comments about this notice, you may contact us primarily through the form provided on our Contact page.</p>
+      
+      <a href="index.html" class="back-link">&larr; Back to Home</a>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-bottom">&copy; 2026 Sazzuri. All rights reserved.</div>
+    </div>
+  </footer>
+</body>
+</html>
