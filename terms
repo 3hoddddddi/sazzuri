@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terms of Service | Sazzuri</title>
+  <style>
+    :root { --primary-color: #596854; --bg-color: #fcfbf9; --text-main: #2c332b; --text-muted: #6b7268; --border-color: #e5e5e5; --font-family: 'Helvetica Neue', -apple-system, BlinkMacSystemFont, Arial, sans-serif; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: var(--font-family); background-color: var(--bg-color); color: var(--text-main); line-height: 1.6; -webkit-font-smoothing: antialiased; }
+    a { text-decoration: none; color: inherit; transition: color 0.3s ease; }
+    a:hover { color: var(--primary-color); }
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 5%; }
+    header { padding: 2rem 0; border-bottom: 1px solid var(--border-color); background-color: var(--bg-color); position: sticky; top: 0; z-index: 100; }
+    .header-inner { display: flex; justify-content: center; align-items: center; }
+    .logo { font-size: 1.8rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; }
+    .page-header { text-align: center; padding: 5rem 0 2rem; }
+    .page-header h1 { font-size: 2.8rem; font-weight: 300; margin-bottom: 1rem; }
+    .page-body { max-width: 800px; margin: 0 auto 6rem; font-size: 1.05rem; }
+    .page-body h2 { font-size: 1.5rem; font-weight: 500; margin: 2.5rem 0 1rem; }
+    .page-body p { margin-bottom: 1.2rem; color: #4a5249; }
+    .back-link { display: inline-block; margin-top: 3rem; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; font-weight: 600; color: var(--primary-color); border-bottom: 1px solid var(--primary-color); padding-bottom: 2px; }
+    footer { background-color: var(--text-main); color: #ffffff; padding: 3rem 0; text-align: center; }
+    .footer-bottom { color: #a0a0a0; font-size: 0.9rem; letter-spacing: 0.5px; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container header-inner">
+      <div class="logo"><a href="index.html">Sazzuri</a></div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="page-header">
+      <h1>Terms of Service</h1>
+    </div>
+    
+    <div class="page-body">
+      <p>Last updated: May 26, 2026</p>
+      <p>Please read these Terms of Service carefully before using the Sazzuri website operated by our team. Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms.</p>
+      
+      <h2>1. Acceptance of Terms</h2>
+      <p>By accessing or using the Service you agree to be bound by these Terms. If you disagree with any part of the terms then you may not access the Service. These Terms apply to all visitors, users, and others who access or use the Service.</p>
+      
+      <h2>2. Intellectual Property Rights</h2>
+      <p>Other than the content you own, under these Terms, Sazzuri and/or its licensors own all the intellectual property rights and materials contained in this Website. You are granted limited license only for purposes of viewing the material contained on this Website.</p>
+      
+      <h2>3. Restrictions</h2>
+      <p>You are specifically restricted from all of the following: publishing any Website material in any other media; selling, sublicensing, and/or otherwise commercializing any Website material; publicly performing and/or showing any Website material; using this Website in any way that is or may be damaging to this Website.</p>
+      
+      <h2>4. Health Disclaimer</h2>
+      <p>The information provided on Sazzuri is for educational and informational purposes only and does not constitute medical advice. Always consult with a qualified healthcare professional before beginning any new fitness or wellness program. Reliance on any information provided by Sazzuri is solely at your own risk.</p>
+      
+      <h2>5. Limitation of Liability</h2>
+      <p>In no event shall Sazzuri, nor any of its officers, directors, and employees, be held liable for anything arising out of or in any way connected with your use of this Website whether such liability is under contract. Sazzuri shall not be held liable for any indirect, consequential, or special liability arising out of or in any way related to your use of this Website.</p>
+      
+      <h2>6. Governing Law</h2>
+      <p>These Terms will be governed by and interpreted in accordance with the laws of the applicable jurisdiction, and you submit to the non-exclusive jurisdiction of the state and federal courts located in for the resolution of any disputes.</p>
+      
+      <a href="index.html" class="back-link">&larr; Back to Home</a>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-bottom">&copy; 2026 Sazzuri. All rights reserved.</div>
+    </div>
+  </footer>
+</body>
+</html>
