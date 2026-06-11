@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Down-Regulating the Nervous System | Sazzuri</title>
+  <style>
+    :root {
+      --primary-color: #596854;
+      --bg-color: #fcfbf9;
+      --text-main: #2c332b;
+      --text-muted: #6b7268;
+      --border-color: #e5e5e5;
+      --font-family: 'Helvetica Neue', -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: var(--font-family); background-color: var(--bg-color); color: var(--text-main); line-height: 1.6; -webkit-font-smoothing: antialiased; }
+    a { text-decoration: none; color: inherit; transition: color 0.3s ease; }
+    a:hover { color: var(--primary-color); }
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 5%; }
+    header { padding: 2rem 0; border-bottom: 1px solid var(--border-color); background-color: var(--bg-color); position: sticky; top: 0; z-index: 100; }
+    .header-inner { display: flex; justify-content: space-between; align-items: center; }
+    .logo { font-size: 1.8rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; }
+    .nav-links { display: flex; gap: 2.5rem; font-weight: 500; font-size: 0.95rem; text-transform: uppercase; letter-spacing: 1px; }
+    
+    .article-header { text-align: center; padding: 5rem 0 3rem; }
+    .article-header h1 { font-size: 2.8rem; font-weight: 300; margin-bottom: 1rem; }
+    .article-header p { color: var(--text-muted); font-size: 1rem; text-transform: uppercase; letter-spacing: 2px; }
+    .article-cover { width: 100%; height: 500px; object-fit: cover; margin-bottom: 4rem; }
+    
+    .article-body { max-width: 700px; margin: 0 auto 6rem; font-size: 1.1rem; }
+    .article-body h2 { font-size: 1.8rem; font-weight: 400; margin: 3rem 0 1.5rem; }
+    .article-body p { margin-bottom: 1.5rem; color: #4a5249; }
+    
+    .instruction-box { background-color: #f7f5f0; padding: 2rem; border-left: 4px solid var(--primary-color); margin: 2rem 0; }
+    
+    .back-link { display: inline-block; margin-top: 3rem; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; font-weight: 600; color: var(--primary-color); border-bottom: 1px solid var(--primary-color); padding-bottom: 2px; }
+    
+    footer { background-color: var(--text-main); color: #ffffff; padding: 3rem 0; text-align: center; }
+    .footer-bottom { color: #a0a0a0; font-size: 0.9rem; letter-spacing: 0.5px; }
+
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+      .article-header h1 { font-size: 2rem; }
+      .article-cover { height: 300px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container header-inner">
+      <div class="logo"><a href="index.html">Sazzuri</a></div>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="article-header">
+      <p>Regeneration</p>
+      <h1>Down-Regulating the Nervous System</h1>
+    </div>
+    
+    <img src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?auto=format&fit=crop&w=1200&q=80" alt="Breathwork" class="article-cover">
+    
+    <div class="article-body">
+      <p>In our modern environment, our bodies are often stuck in a state of high alert. Chronic stress can negatively impact sleep quality, digestion, and overall physical recovery. Fortunately, your breath is a built-in remote control for your nervous system.</p>
+      
+      <h2>The 4-4-4-4 Box Breathing Method</h2>
+      <p>This simple technique is utilized by everyone from high-level athletes to executives to manage stress levels on demand. It helps shift your body from the "fight or flight" sympathetic state to the "rest and digest" parasympathetic state.</p>
+      
+      <div class="instruction-box">
+        <p><strong>Step 1:</strong> Inhale slowly through your nose for a count of 4.</p>
+        <p><strong>Step 2:</strong> Hold your breath at the top for a count of 4.</p>
+        <p><strong>Step 3:</strong> Exhale completely through your mouth for a count of 4.</p>
+        <p><strong>Step 4:</strong> Hold your breath empty at the bottom for a count of 4.</p>
+      </div>
+      
+      <h2>When to use this practice</h2>
+      <p>You do not need a quiet meditation room to practice box breathing. Use this technique while commuting, before a stressful meeting, or lying in bed when your mind will not switch off. Five minutes of box breathing is enough to chemically alter your stress response and restore clarity.</p>
+      
+      <a href="index.html" class="back-link">&larr; Back to Home</a>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-bottom">&copy; 2026 Sazzuri. All rights reserved.</div>
+    </div>
+  </footer>
+</body>
+</html>
