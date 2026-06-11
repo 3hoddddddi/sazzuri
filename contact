@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Sazzuri</title>
+  <style>
+    :root { --primary-color: #596854; --bg-color: #fcfbf9; --text-main: #2c332b; --text-muted: #6b7268; --border-color: #e5e5e5; --font-family: 'Helvetica Neue', -apple-system, BlinkMacSystemFont, Arial, sans-serif; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: var(--font-family); background-color: var(--bg-color); color: var(--text-main); line-height: 1.6; -webkit-font-smoothing: antialiased; }
+    a { text-decoration: none; color: inherit; transition: color 0.3s ease; }
+    a:hover { color: var(--primary-color); }
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 5%; }
+    header { padding: 2rem 0; border-bottom: 1px solid var(--border-color); background-color: var(--bg-color); position: sticky; top: 0; z-index: 100; }
+    .header-inner { display: flex; justify-content: center; align-items: center; }
+    .logo { font-size: 1.8rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; }
+    .page-header { text-align: center; padding: 5rem 0 2rem; }
+    .page-header h1 { font-size: 2.8rem; font-weight: 300; margin-bottom: 1rem; }
+    .page-body { max-width: 700px; margin: 0 auto 6rem; font-size: 1.05rem; }
+    .page-body p { margin-bottom: 2rem; color: #4a5249; text-align: center; }
+    
+    .contact-wrapper { background: #ffffff; padding: 3rem; border: 1px solid var(--border-color); }
+    .form-group { margin-bottom: 1.5rem; }
+    .form-group label { display: block; margin-bottom: 0.5rem; font-weight: 500; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; }
+    .form-group input, .form-group textarea { width: 100%; padding: 1rem; border: 1px solid var(--border-color); border-radius: 0; font-family: inherit; font-size: 1rem; background-color: var(--bg-color); }
+    .form-group textarea { height: 150px; resize: vertical; }
+    .btn { display: inline-block; padding: 1.2rem 3rem; background-color: var(--primary-color); color: #ffffff; border: none; cursor: pointer; letter-spacing: 2px; text-transform: uppercase; font-size: 0.85rem; font-weight: 600; transition: background-color 0.3s ease; width: 100%; }
+    .btn:hover { background-color: #445040; }
+    
+    .contact-info { margin-top: 4rem; text-align: center; border-top: 1px solid var(--border-color); padding-top: 3rem; }
+    .contact-info h3 { font-size: 1.5rem; font-weight: 400; margin-bottom: 1.5rem; }
+    .contact-info p { margin-bottom: 0.5rem; color: var(--text-main); }
+    
+    .back-link { display: inline-block; margin-top: 3rem; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; font-weight: 600; color: var(--primary-color); border-bottom: 1px solid var(--primary-color); padding-bottom: 2px; }
+    footer { background-color: var(--text-main); color: #ffffff; padding: 3rem 0; text-align: center; }
+    .footer-bottom { color: #a0a0a0; font-size: 0.9rem; letter-spacing: 0.5px; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container header-inner">
+      <div class="logo"><a href="index.html">Sazzuri</a></div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="page-header">
+      <h1>Get in Touch</h1>
+    </div>
+    
+    <div class="page-body">
+      <p>Whether you have a question about our methodology, need assistance with your practice, or simply want to share your progress, our team is ready to connect with you.</p>
+      
+      <div class="contact-wrapper">
+        <form action="#" method="POST">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit" class="btn">Send Inquiry</button>
+        </form>
+      </div>
+      
+      <div class="contact-info">
+        <h3>Direct Support</h3>
+        <p>If you prefer to reach out to us directly, please email our support desk at:</p>
+        <p style="font-weight: 600; font-size: 1.2rem; margin: 1rem 0;">team@sazzuri.com</p>
+        <p style="color: var(--text-muted); font-size: 0.9rem;">We aim to respond to all inquiries within 24-48 business hours.</p>
+      </div>
+      
+      <div style="text-align: center;">
+        <a href="index.html" class="back-link">&larr; Back to Home</a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-bottom">&copy; 2026 Sazzuri. All rights reserved.</div>
+    </div>
+  </footer>
+</body>
+</html>
