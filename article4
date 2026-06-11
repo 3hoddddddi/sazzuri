@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexibility vs. Mobility: The Difference | Sazzuri</title>
+  <style>
+    :root { --primary-color: #596854; --bg-color: #fcfbf9; --text-main: #2c332b; --text-muted: #6b7268; --border-color: #e5e5e5; --font-family: 'Helvetica Neue', -apple-system, BlinkMacSystemFont, Arial, sans-serif; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: var(--font-family); background-color: var(--bg-color); color: var(--text-main); line-height: 1.6; -webkit-font-smoothing: antialiased; }
+    a { text-decoration: none; color: inherit; transition: color 0.3s ease; }
+    a:hover { color: var(--primary-color); }
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 5%; }
+    header { padding: 2rem 0; border-bottom: 1px solid var(--border-color); background-color: var(--bg-color); position: sticky; top: 0; z-index: 100; }
+    .header-inner { display: flex; justify-content: space-between; align-items: center; }
+    .logo { font-size: 1.8rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; }
+    .nav-links { display: flex; gap: 2.5rem; font-weight: 500; font-size: 0.95r em; text-transform: uppercase; letter-spacing: 1px; }
+    .article-header { text-align: center; padding: 5rem 0 3rem; }
+    .article-header h1 { font-size: 2.8rem; font-weight: 300; margin-bottom: 1rem; }
+    .article-header p { color: var(--text-muted); font-size: 1rem; text-transform: uppercase; letter-spacing: 2px; }
+    .article-cover { width: 100%; height: 500px; object-fit: cover; margin-bottom: 4rem; }
+    .article-body { max-width: 700px; margin: 0 auto 6rem; font-size: 1.1rem; }
+    .article-body h2 { font-size: 1.8rem; font-weight: 400; margin: 3rem 0 1.5rem; }
+    .article-body p { margin-bottom: 1.5rem; color: #4a5249; }
+    .back-link { display: inline-block; margin-top: 3rem; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; font-weight: 600; color: var(--primary-color); border-bottom: 1px solid var(--primary-color); padding-bottom: 2px; }
+    footer { background-color: var(--text-main); color: #ffffff; padding: 3rem 0; text-align: center; }
+    .footer-bottom { color: #a0a0a0; font-size: 0.9rem; letter-spacing: 0.5px; }
+    @media (max-width: 768px) { .nav-links { display: none; } .article-header h1 { font-size: 2rem; } .article-cover { height: 300px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container header-inner">
+      <div class="logo"><a href="index.html">Sazzuri</a></div>
+      <nav class="nav-links"><a href="index.html">Home</a></nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="article-header">
+      <p>Anatomy & Mechanics</p>
+      <h1>Flexibility vs. Mobility: The Difference</h1>
+    </div>
+    
+    <img src="https://images.unsplash.com/photo-1575052814086-f385e2e2ad1b?auto=format&fit=crop&w=1200&q=80" alt="Flexibility" class="article-cover">
+    
+    <div class="article-body">
+      <p>Many people use the terms flexibility and mobility interchangeably. However, in the realm of physical longevity and injury prevention, understanding the distinction is paramount.</p>
+      
+      <h2>What is Flexibility?</h2>
+      <p>Flexibility refers to the passive range of motion of a joint. It is your ability to stretch a muscle using gravity, a strap, or an external force. Being able to touch your toes by letting your body weight pull you down is a demonstration of flexibility.</p>
+      
+      <h2>What is Mobility?</h2>
+      <p>Mobility is your active range of motion. It involves flexibility, but adds strength and motor control into the equation. It is your ability to move a joint through its full range using only your muscles, without external assistance. Lifting your leg up to 90 degrees and holding it there requires mobility.</p>
+      
+      <h2>Why Mobility Matters More</h2>
+      <p>While being flexible feels good, extreme flexibility without the strength to control it (mobility) can actually lead to joint instability and injury. Your nervous system needs to feel safe in your end-ranges of motion. If you cannot control a position actively, your body will perceive it as a threat.</p>
+      
+      <p>Our practice at Sazzuri focuses heavily on converting passive flexibility into active, resilient mobility.</p>
+      
+      <a href="index.html" class="back-link">&larr; Back to Home</a>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-bottom">&copy; 2026 Sazzuri. All rights reserved.</div>
+    </div>
+  </footer>
+</body>
+</html>
